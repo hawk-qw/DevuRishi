@@ -46,7 +46,7 @@ const Home = () => {
             }
             {choice == 1 && <div className=' text-pink-400 place-items-center  flex flex-col  '>
                 <div className='flex flex-row place-items-center ' >
-                    <p className='text-4xl '>
+                    <p className='text-4xl bg-pink-100 border-2 border-pink-500 p-2 rounded-lg '>
 
                         A small effort to make ur mood good hehe
                     </p>
@@ -62,7 +62,7 @@ const Home = () => {
             </div>}
             {choice == 2 && <div className=' text-pink-400 place-items-center  flex flex-col  '>
                 <div className='flex flex-row place-items-center ' >
-                    <p className='text-4xl '>
+                    <p className='text-4xl bg-pink-100 border-2 border-pink-500 p-2 rounded-lg '>
 
                         How's ur mood right now
                     </p>
@@ -88,7 +88,7 @@ const Home = () => {
             </div>}
             {choice == 3 && <div className=' text-pink-400 place-items-center  flex flex-col  '>
                 <div className='flex flex-row place-items-center ' >
-                    <p className='text-4xl '>
+                    <p className='text-4xl bg-pink-100 border-2 border-pink-500 p-2 rounded-lg '>
 
                         Can u guess how much ur Boyfriend Loves you??
                     </p>
@@ -116,7 +116,7 @@ const Home = () => {
                             visible={true}
                         /> : !verified && <button className='text-ganja text-xl border-2 border-pink-500 px-4 rounded-xl py-2' onClick={() => setLoading(true)}>Check the answer</button>}
                         {verified && <>
-                            <p className='text-pink-400 font-bold text-4xl uppercase p-1 bg-pink-50  ' >
+                            <p className='text-pink-400 font-bold text-4xl uppercase p-1 bg-pink-50  border-2 border-pink-400 rounded-lg pt-2 ' >
                                 💕💕💕💕 The Amount of love he has in ur heart for u cannot be measured heheheheeh !!!! 💕💕💕💕💕</p>
                             <button className=' mt-5 active:bg-green-100 text-green-600 px-3 py-2 rounded-xl border-2 border-green-500 outline-none ' onClick={() => navigate("/DevuRishi/moments")} >
                                 Click to Proceed
