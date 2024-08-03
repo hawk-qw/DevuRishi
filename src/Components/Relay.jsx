@@ -8,7 +8,7 @@ const Relay = ({ text, gif, desc, i }) => {
 
     return (
         <div className='flex flex-col gap-8 place-items-center ' >
-            <p className='text-pink-400 text-3xl uppercase' >
+            <p className='text-pink-400 text-3xl uppercase bg-pink-100 px-4 rounded-xl border border-pink-500' >
 
                 {text}
             </p>
@@ -20,8 +20,8 @@ const Relay = ({ text, gif, desc, i }) => {
             {show &&
                 <>
                     <img loading='lazy' className='w-[30rem] h-[30rem] p-2 rounded-2xl border-2 border-pink-600 ' src={`${gif}.gif`} />
-                    {desc?.length > 0 && <div className='p-5 bg-pink-50 '>
-                        <p className='text-pink-500 uppercase text-lg ' >
+                    {desc?.length > 0 && <div className='p-5 bg-pink-50 border-2 rounded-xl border-pink-400 '>
+                        <p className='text-pink-500 uppercase text-lg  ' >
                             {desc}
                         </p>
 
