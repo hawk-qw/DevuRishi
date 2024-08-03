@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower:wght@400;500&display=swap');
+@keyframes blast {
+    to {
+      transform: translate(-50%, -50%) scale(3);
+      opacity: 0;
+    }
+  }
+
+  body {
+    background-image: url("Aesthetic-Pink-Wallpaper-Flower-1.jpg")
+
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

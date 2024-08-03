@@ -1,0 +1,19 @@
+.App1 {
+    /* font-family: sans-serif; */
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .slider-container {
+    width: 100%;
+    background-color: #ddd;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+  }
+  
