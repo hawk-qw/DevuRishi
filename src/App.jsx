@@ -7,11 +7,14 @@ import { ToastContainer } from 'react-toastify';
 import Home from './Pages/Home';
 import Moments from './Pages/Moments';
 import End from './Pages/End';
+import myImage from './Flower.jpg'; // Import your image
 
 const App = () => {
 
   return (
-    <div className='font-ganja'  >
+    <div style={{
+
+    }} className='font-ganja'  >
       <Routes>
         <Route path="/DevuRishi" element={<Login />} />
         <Route path="/DevuRishi/login" element={<Login2 />} />
