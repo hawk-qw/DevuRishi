@@ -8,7 +8,7 @@
   }
 
   body {
-    background-image: url("Aesthetic-Pink-Wallpaper-Flower-1.jpg")
+    background-image: url("../public/Flower.jpg")
 
   }
 @tailwind base;

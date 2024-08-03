@@ -11,7 +11,7 @@ import End from './Pages/End';
 const App = () => {
 
   return (
-    <div className='font-ganja'  >
+    <div style={{ backgroundImage: url(".Flower.jpg") }} className='font-ganja'  >
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login2 />} />
