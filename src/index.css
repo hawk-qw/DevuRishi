@@ -6,11 +6,6 @@
       opacity: 0;
     }
   }
-
-  body {
-    background-image: url("../public/Flower.jpg")
-
-  }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

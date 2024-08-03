@@ -21,7 +21,7 @@ const Login = () => {
                 setTries(tries + 1)
             }
         } else {
-            navigate('/login2')
+            navigate('/DevuRishi/login')
         }
         console.log(tries)
     }

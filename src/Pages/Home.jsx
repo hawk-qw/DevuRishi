@@ -118,7 +118,7 @@ const Home = () => {
                         {verified && <>
                             <p className='text-pink-400 font-bold text-4xl uppercase p-1 bg-pink-50  ' >
                                 💕💕💕💕 The Amount of love he has in ur heart for u cannot be measured heheheheeh !!!! 💕💕💕💕💕</p>
-                            <button className=' mt-5 active:bg-green-100 text-green-600 px-3 py-2 rounded-xl border-2 border-green-500 outline-none ' onClick={() => navigate("/moments")} >
+                            <button className=' mt-5 active:bg-green-100 text-green-600 px-3 py-2 rounded-xl border-2 border-green-500 outline-none ' onClick={() => navigate("/DevuRishi/moments")} >
                                 Click to Proceed
                             </button>
                         </>}

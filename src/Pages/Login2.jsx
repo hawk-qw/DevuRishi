@@ -60,7 +60,7 @@ const Login2 = () => {
                             <p className='text-4xl text-pink-400 ' >
                                 Verified !!!! ✅ ✅
                             </p>
-                            <button className='active:bg-green-100 text-green-600 px-3 py-2 rounded-xl border-2 border-green-500 outline-none ' onClick={() => navigate("/home")} >
+                            <button className='active:bg-green-100 text-green-600 px-3 py-2 rounded-xl border-2 border-green-500 outline-none ' onClick={() => navigate("/DevuRishi/home")} >
                                 Click to Proceed
                             </button>
                         </div> : <button className='bg-green-100 text-green-800 border-2 border-green-900 px-4 py-2 self-center' onClick={() => setLoading(true)} >

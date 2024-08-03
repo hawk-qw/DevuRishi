@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import Relay from '../Components/Relay'
+import { useNavigate } from "react-router-dom";
 
 const Moments = () => {
+    const navigate = useNavigate();
     const arr = [{
         "text": "When I first saw u and and my reaction whenever ur snap comes ",
         "gif": "love-struck-swoon",
@@ -57,16 +59,16 @@ const Moments = () => {
             </div>
             }
             {show && <>
-                <Relay i={i} text={arr[i].text} gif={arr[i].gif} desc={arr[i]?.desc} />
+                {i < 9 && <Relay i={i} text={arr[i].text} gif={arr[i].gif} desc={arr[i]?.desc} />}
                 <div className='flex flex-row gap-32 mt-10 ' >
-                    {i > 0 && <button className='px-3 py-2 border bg-blue-400 rounded' onClick={() => setI(i - 1)} >
+                    {i > 0 && i < 9 && <button className='px-3 py-2 border bg-blue-400 rounded' onClick={() => setI(i - 1)} >
                         Prev
                     </button>}
-                    {i < 10 && <button className='px-3 py-2 border bg-blue-400 rounded ' onClick={() => setI(i + 1)} >
+                    {i < 9 && <button className='px-3 py-2 border bg-blue-400 rounded ' onClick={() => setI(i + 1)} >
                         Next
                     </button>}
                     {
-                        i == 10 && <button className=' mt-5 active:bg-green-100 text-green-600 px-3 py-2 rounded-xl border-2 border-green-500 outline-none ' onClick={() => navigate("/end")} >
+                        i >= 9 && <button className=' mt-5 active:bg-green-100 text-green-600 px-3 py-2 rounded-xl border-2 border-green-500 outline-none ' onClick={() => navigate("/DevuRishi/end")} >
                             Click to Proceed
                         </button>
                     }

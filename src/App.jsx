@@ -11,13 +11,13 @@ import End from './Pages/End';
 const App = () => {
 
   return (
-    <div style={{ backgroundImage: url(".Flower.jpg") }} className='font-ganja'  >
+    <div className='font-ganja'  >
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/login" element={<Login2 />} />
-        <Route path='/home' element={<Home />} />
-        <Route path='/moments' element={<Moments />} />
-        <Route path='/end' element={<End />} />
+        <Route path="/DevuRishi" element={<Login />} />
+        <Route path="/DevuRishi/login" element={<Login2 />} />
+        <Route path='/DevuRishi/home' element={<Home />} />
+        <Route path='/DevuRishi/moments' element={<Moments />} />
+        <Route path='/DevuRishi/end' element={<End />} />
       </Routes>
       <ToastContainer />
     </div>
